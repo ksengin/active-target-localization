@@ -1,1 +1,5 @@
 theme: jekyll-theme-cayman
+title: Active Localization of Multiple Targets Using Noisy Relative Measurements
+description: Project page for the active target localization
+github:
+  is_project_page: false
