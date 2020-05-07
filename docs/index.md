@@ -1,4 +1,4 @@
-This page contains codes and information for the paper "Active Localization of Multiple Targets Using Noisy Relative Measurements". The code is coming soon!
+This page contains codes and information for the paper "[Active Localization of Multiple Targets Using Noisy Relative Measurements](https://arxiv.org/pdf/2002.09850.pdf)". The code is coming soon!
 
 
 The following two visuals illustrate the active localization of 8 targets using bearing and range measurements, respectively.
@@ -18,4 +18,4 @@ View the paper on [arXiv](https://arxiv.org/abs/2002.09850).
 }
 ```
 
-Correspondence to: contact engin003 [at] umn [dot] edu
+Correspondence to: engin003 [at] umn [dot] edu
