@@ -2,4 +2,4 @@ This page contains codes and information for the paper "Active Localization of M
 
 
 Localization of 8 targets using bearing or range measurements:
-![alt text](visuals/atl_bearing.gif)
+![alt text](https://github.com/ksengin/active-target-localization/blob/master/visuals/atl_bearing.gif?raw=true)
