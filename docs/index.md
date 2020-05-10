@@ -5,8 +5,12 @@ The following two visuals illustrate the active localization of 8 targets using 
 ![alt text](https://github.com/ksengin/active-target-localization/blob/master/visuals/atl_bearing.gif?raw=true)
 ![alt text](https://github.com/ksengin/active-target-localization/blob/master/visuals/atl_range.gif?raw=true)
 
+<center>
 <iframe src="https://drive.google.com/file/d/1rrkkmvIhP80OuivfAPDipD9i71otX6fL/preview" width="480" height="480"></iframe>
+</center>
+<center>
 <iframe src="https://drive.google.com/file/d/1H3HgEA7MIXLEwgV4ZN9g-M9TaBKa8XpB/preview" width="480" height="480"></iframe>
+</center>
 
 
 View the paper on [arXiv](https://arxiv.org/abs/2002.09850).
