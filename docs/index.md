@@ -2,8 +2,8 @@ This page contains codes and information for the paper "[Active Localization of 
 
 
 The following two visuals illustrate the active localization of 8 targets using bearing and range measurements, respectively.
-![alt text](https://github.com/ksengin/active-target-localization/blob/master/visuals/atl_bearing.gif?raw=true)
-![alt text](https://github.com/ksengin/active-target-localization/blob/master/visuals/atl_range.gif?raw=true)
+<!-- ![alt text](https://github.com/ksengin/active-target-localization/blob/master/visuals/atl_bearing.gif?raw=true)
+![alt text](https://github.com/ksengin/active-target-localization/blob/master/visuals/atl_range.gif?raw=true) -->
 
 <center>
 <iframe src="https://drive.google.com/file/d/1rrkkmvIhP80OuivfAPDipD9i71otX6fL/preview" width="480" height="480"></iframe>
