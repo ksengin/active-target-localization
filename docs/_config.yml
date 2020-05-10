@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
-title: Active Localization of Multiple Targets Using Noisy Relative Measurements (WAFR 2020)
-description: [Selim Engin](https://ksengin.github.io/) and [Volkan Isler](https://www-users.cs.umn.edu/~isler/)
+title: Active Localization of Multiple Targets Using Noisy Relative Measurements
+description: Project page for our paper on active target localization (WAFR 2020)
 github:
   is_project_page: false
