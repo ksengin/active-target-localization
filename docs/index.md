@@ -22,7 +22,7 @@ View the paper [here](https://ksengin.github.io/papers/wafr2020active.pdf).
 
 
 ## Results
-The following two visuals illustrate the active localization of 8 targets using bearing and range measurements, respectively. The heatmap indicates the robot's belief for the target positions whereas the red curve is the trajectory of the robot. The true positions of the targets are marked with blue dots and the predicted positions are shown as yellow dots.
+The following two visuals illustrate the active localization of 8 targets using bearing and range measurements, respectively. The heatmap indicates the robot's belief for the target positions whereas the red curve is the trajectory of the robot. The true positions of the targets are marked with blue dots and the predicted positions are shown as yellow dots. In both experiments, the robot measurements are noisy: the bearing measurements have up to 30 degrees of error, and range measurements have an error of up to 3 meters in a $20 \times 20$ area.
 <!-- ![alt text](https://github.com/ksengin/active-target-localization/blob/master/visuals/atl_bearing.gif?raw=true)
 ![alt text](https://github.com/ksengin/active-target-localization/blob/master/visuals/atl_range.gif?raw=true) -->
 
