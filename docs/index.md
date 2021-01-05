@@ -4,7 +4,7 @@ This page contains codes and information for the paper "[Active Localization of 
 ## Abstract
 Consider a mobile robot tasked with localizing targets at unknown locations by obtaining relative measurements. The observations can be bearing or range measurements. How should the robot move so as to localize the targets and minimize the uncertainty in their locations as quickly as possible? This is a difficult optimization problem for which existing approaches are either greedy in nature or they rely on accurate initial estimates.
 
-We formulate this path planning problem as an unsupervised learning problem where the measurements are aggregated using a Bayesian histogram filter. The robot learns to minimize the total uncertainty of each target in the shortest amount of time using the current measurement and an aggregate representation of the current belief state. We analyze our method in a series of experiments where we show that our method outperforms a standard greedy approach. In addition, its performance is comparable to that of an offline algorithm which has access to the true location of the targets.
+We formulate this path planning problem as a reinforcement learning problem where the measurements are aggregated using a Bayesian histogram filter. The robot learns to minimize the total uncertainty of each target in the shortest amount of time using the current measurement and an aggregate representation of the current belief state. We analyze our method in a series of experiments where we show that our method outperforms a standard greedy approach. In addition, its performance is comparable to that of an offline algorithm which has access to the true location of the targets.
 
 
 ## Paper
@@ -22,7 +22,7 @@ View the paper [here](https://ksengin.github.io/papers/wafr2020active.pdf).
 
 
 ## Results
-The following two visuals illustrate the active localization of 8 targets using bearing and range measurements, respectively.
+The following two visuals illustrate the active localization of 8 targets using bearing and range measurements, respectively. The heatmap indicates the robot's belief for the target positions whereas the red curve is the trajectory of the robot. The true positions of the targets are marked with blue dots and the predicted positions are shown as yellow dots.
 <!-- ![alt text](https://github.com/ksengin/active-target-localization/blob/master/visuals/atl_bearing.gif?raw=true)
 ![alt text](https://github.com/ksengin/active-target-localization/blob/master/visuals/atl_range.gif?raw=true) -->
 
