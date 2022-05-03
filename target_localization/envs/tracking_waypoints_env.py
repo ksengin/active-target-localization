@@ -128,9 +128,7 @@ class TrackingWaypointsEnv(gym.GoalEnv):
 
         obs = self._get_obs()
 
-        if self.reward_type == 'fim':
-            self.info_acc = InformationAccumulator(init_sensor_loc=self.sensor_pos, target_loc=self.target_pos)
-        elif self.reward_type == 'ci':
+        if self.reward_type == 'ci':
             self.mean_belief = self.len_workspace/2 * np.ones(2)
             self.cov_belief = self.len_workspace * np.eye(2) # essentially a uniform prior
         elif self.reward_type == 'heatmap':
@@ -174,10 +172,7 @@ class TrackingWaypointsEnv(gym.GoalEnv):
         done = False
         reward = 0.
 
-        if self.reward_type == 'fim' and self.info_acc is not None:
-            reward = self.info_acc.fisher_determinant(self.sensor_pos)
-            reward /= self.num_targets
-        elif self.reward_type == 'fim':
+        if self.reward_type == 'fim':
             for target_pos in true_target_pos:
                 vecs_to_target = target_pos - sensor_pos_all
                 angles = torch.atan2(vecs_to_target[:,1], vecs_to_target[:,0])
